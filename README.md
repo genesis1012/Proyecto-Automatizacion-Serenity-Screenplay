@@ -1,11 +1,11 @@
-# Proyecto-Automatizacion-Serenity-Screenplay
-Proyecto de automatizacion en serenity screenplay y cucumber para la compra de un producto en Metro.pe
+# Proyecto-Automatización-Serenity-Screenplay
+Proyecto de automatización en serenity screenplay y cucumber para la compra de un producto en Metro.pe
 
-En este proyecto se podra observar como se automatizo la prueba de buscar un producto en la pagina Metro.pe, agregarlo al carrito y decompras y validar que se alla agregado exitosamnete el producto.
+En este proyecto se podrá observar cómo se automatizo la prueba de buscar un producto en la página Metro.pe, agregarlo al carrito de compras y validar que se halla agregado exitosamente el producto.
 
-En este proyecto se implemento Cucumber ya que es una manera eficiente de definir el escenario utilizando la notacion gherkin.
+En este proyecto se implementó Cucumber ya que es una manera eficaz de definir el escenario utilizando la notación gherkin.
 
-Se utilizo el patron de diseño Serenity Screenplay (http://serenity-bdd.info/docs/articles/screenplay-tutorial.html) para darle eficiencia a la automatizacion.
+Se utilizó el patrón de diseño Serenity Screenplay (http://serenity-bdd.info/docs/articles/screenplay-tutorial.html) para darle eficiencia a la automatización.
 
 -src.main.java.com.RetoAutomatizacion
 
@@ -27,6 +27,6 @@ Se utilizo el patron de diseño Serenity Screenplay (http://serenity-bdd.info/do
 
 ----features.web
 
-Se utilizo Gradle (https://gradle.org/) para la compilacion y ejecucion de la automatizacion.
+Se utilizó Gradle (https://gradle.org/) para la compilación y ejecución de la automatización.
 se puede ejecutar el excript con el siguiente comando:
 gradle clean test aggregate --info
