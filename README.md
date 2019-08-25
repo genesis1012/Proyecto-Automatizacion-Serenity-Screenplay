@@ -6,15 +6,25 @@ En este proyecto se podra observar como se automatizo la prueba de buscar un pro
 En este proyecto se implemento Cucumber ya que es una manera eficiente de definir el escenario utilizando la notacion gherkin.
 
 Se utilizo el patron de diseño Serenity Screenplay (http://serenity-bdd.info/docs/articles/screenplay-tutorial.html) para darle eficiencia a la automatizacion.
+
 -src.main.java.com.RetoAutomatizacion
+
 ------model
+
 ------questions
+
 ------tasks
+
 ------user_interfac
+
 -src.test.java.com-RetoAutomatizacion
+
 ------Runners
+
 ------step_definitions
+
 -src.test.resources
+
 ----features.web
 
 Se utilizo Gradle (https://gradle.org/) para la compilacion y ejecucion de la automatizacion.
